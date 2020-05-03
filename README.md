@@ -37,10 +37,24 @@ Software engineering team generator command line application. This is a `nodejs`
     ```
     node app.js
     ```
-1. Run tests
+1. Run tests.
     ```
     npm run test
     ```
 
 ---
 
+## NPM Packages
+
+| Package | Documentation | Notes
+| ----------- | ----------- | ----------- |
+| `inquirer` | [Inquirer](https://www.npmjs.com/package/inquirer#documentation) | Nicer Command line user interface
+| `jest` | [Jest](https://jestjs.io/docs/en/getting-started) | Delightful JavaScript Testing Framework
+| `coveralls` | [Coveralls](https://www.npmjs.com/package/coveralls) | Great code coverage reporting tool
+|  |  |
+
+---
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](license) file for details.
