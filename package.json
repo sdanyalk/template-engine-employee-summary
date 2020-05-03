@@ -9,7 +9,7 @@
   },
   "scripts": {
     "test": "jest --verbose --coverage",
-    "coveralls": "jest --coverage && cat ./test/coverage/lcov.info | coveralls"
+    "coveralls": "jest --coverage && cat ./coverage/lcov.info | coveralls"
   },
   "repository": {
     "type": "git",
