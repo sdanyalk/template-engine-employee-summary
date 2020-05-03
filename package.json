@@ -1,0 +1,29 @@
+{
+  "name": "template-engine-employee-summary",
+  "version": "1.0.0",
+  "description": "Software engineering team generator command line application.",
+  "main": "app.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest --verbose test/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sdanyalk/template-engine-employee-summary"
+  },
+  "author": "Danyal Khalid",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sdanyalk/template-engine-employee-summary/issues"
+  },
+  "homepage": "https://github.com/sdanyalk/template-engine-employee-summary/blob/master/README.md",
+  "dependencies": {
+    "inquirer": "^6.3.1"
+  },
+  "devDependencies": {
+    "jest": "^24.8.0"
+  }
+}
