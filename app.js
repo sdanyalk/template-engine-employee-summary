@@ -1,7 +1,7 @@
 const Manager = require("./lib/Manager");
 
-const managerHelper = require("./lib/managerHelper");
-const teamHelper = require("./lib/teamHelper");
+const managerHelper = require("./lib/helper/managerHelper");
+const teamHelper = require("./lib/helper/teamHelper");
 
 const startApp = async () => {
     const managerInfo = await managerHelper.askForManagerInfo();
