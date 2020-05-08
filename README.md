@@ -55,6 +55,14 @@ Software engineering team generator command line application. This is a `nodejs`
 
 ---
 
+# CI/CD
+
+CI/CD means Continuous Integration / Continous Development. This is a development practice that means deploying your code as soon as you develop it automatically.
+
+I'm using [travis-ci](https://travis-ci.com/) for this. It is very easy to setup and use. You will need to create a file called `.travis.yml` at the root of your project. After that go to [github marketplace](https://github.com/marketplace/travis-ci) to add travis-ci to your github. It also gives nice build badges that can be added to the readme.
+
+---
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](license) file for details.
